@@ -1,0 +1,15 @@
+
+.header{
+    background: linear-gradient(to top,#b7b7b7, #e0e0e0);
+    color: #616161;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.headerLogo{
+    color: #616161;
+}
+
+.headerLogo:hover{
+    color: #4c4c4c;
+}
