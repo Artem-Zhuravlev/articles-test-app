@@ -3,11 +3,6 @@ import React, { Component } from 'react';
 import HeaderTop from './components/Header/HeaderTop';
 import MainContent from './components/MainContent/MainContent';
 
-
-
-
-
-
 class App extends Component {
   state = {
     counter: 0

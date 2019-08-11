@@ -1,0 +1,22 @@
+.MainContent{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.MainContent__title{
+    margin-bottom: 1.5em;
+    color: #a9a9a9;
+}
+
+.MainContent__btn{
+    background:#dedede;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    color: #549e83 !important;
+}
+.MainContent__btn:hover,
+.MainContent__btn:focus{
+    color: #2a5cb7 !important;
+    background:#dedede;
+    border: 1px solid #2a5cb7;
+}

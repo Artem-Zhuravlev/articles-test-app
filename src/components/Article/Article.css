@@ -1,0 +1,19 @@
+.Article{
+    display: flex;
+    margin-bottom: 20px;
+}
+.Article__pic{
+    width: 100px;
+    height: 100px;
+}
+.Article__desc{
+    text-align: left;
+    margin-left: 20px;
+}
+.img-fluid{
+    max-width: 100%;
+    min-width: 100px;
+    min-height: 100px;
+    display: block;
+    object-fit: cover;
+}
