@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './MainContent.css';
 import Article from '../Article/Article';
  
-import { Typography, Layout, Col, Button } from 'antd';
+import { Typography, Layout, Col, Button, Content } from 'antd';
 const { Title } = Typography;
 
 class MainContent extends Component {
@@ -31,21 +31,9 @@ class MainContent extends Component {
         });
     }
 
-    handleClick = () => {  
-        this.setState({
-            iconLoading: true,
-        });
-
-        setTimeout(() => {
-            this.setState({iconLoading: false,});
-        }, 1000);
-
-        this.getData();
-    }
-
     render() {
         return (
-            <Layout className="MainContent">
+            <div className="MainContent">
                 <div className="container">
                     <Col span={24}>
                         {this.state.articles.length === 0 ? 
@@ -78,12 +66,9 @@ class MainContent extends Component {
                                 }
                             </div>
                         }
-                        
                     </Col>
-
-                   
                 </div>
-            </Layout>
+            </div>
         );
     }
 }
